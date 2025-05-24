@@ -1,12 +1,8 @@
-
-# README.md
-
-
-# 🚀 Full-Stack Tabular Model Deployment with React, FastAPI, Docker & Kubernetes
+# 🚀 Full-Stack Model Deployment
 
 ## 🎯 Project Overview
 
-This project demonstrates how to deploy a **pretrained tabular regression model** from Hugging Face for predicting numerical values (like energy consumption or crop yield) through a fully functional web application.
+This project demonstrates how to deploy a **pretrained regression** from Hugging Face for predicting numerical values (like energy consumption or crop yield) through a fully functional web application.
 
 The main goals are to:
 
@@ -16,8 +12,6 @@ The main goals are to:
 - Deploy and scale the application with **Kubernetes** for real-world production readiness  
 
 This workflow mimics professional ML engineering pipelines, focusing on **model deployment, API design, and container orchestration** rather than training from scratch.
-
----
 
 ## ⚙️ What Does This Project Do?
 
@@ -36,8 +30,6 @@ This workflow mimics professional ML engineering pipelines, focusing on **model 
 5. **Orchestration with Kubernetes:**  
    The entire stack is deployed on Kubernetes, enabling easy scaling, load balancing, and fault tolerance—essential for production-level applications.
 
----
-
 ## 🚀 Features at a Glance
 
 - 🤖 **Pretrained Tabular Model:** Leverage state-of-the-art ML models from Hugging Face without training overhead  
@@ -46,12 +38,9 @@ This workflow mimics professional ML engineering pipelines, focusing on **model 
 - 🐳 **Dockerized:** Container images for easy packaging and distribution  
 - ☸️ **Kubernetes Deployment:** Scalable, resilient deployment configuration  
 
----
-
 ## 📁 Project Structure
 
 ```
-
 tabular-ml-deployment/
 ├── backend/
 │   ├── main.py                     # FastAPI app serving the model API
@@ -80,9 +69,7 @@ tabular-ml-deployment/
 ├── .gitignore
 └── README.md
 
-````
-
----
+```
 
 ## 🛠️ Getting Started
 
@@ -90,42 +77,29 @@ tabular-ml-deployment/
 
 1. Go to the `backend/` directory  
 2. Install dependencies:
-
    ```bash
-   pip install -r requirements.txt
-````
-
+      pip install -r requirements.txt
+   ```
 3. Run the FastAPI server locally:
-
    ```bash
    uvicorn main:app --reload
    ```
-
 4. Test the API endpoint:
-
    * `POST /predict` — Send JSON with tabular features, receive predictions
 
----
 
 ### Frontend Setup
 
 1. Navigate to the `frontend/` directory
-
 2. Install npm packages:
-
    ```bash
    npm install
    ```
-
 3. Start the React development server:
-
    ```bash
    npm start
    ```
-
 4. Use the web interface to enter data and get model predictions
-
----
 
 ### Docker & Kubernetes Deployment
 
@@ -146,8 +120,6 @@ tabular-ml-deployment/
 
 4. Access your app through the configured Kubernetes ingress or service URL
 
----
-
 ## 📈 Future Improvements
 
 * Add validation and error feedback for user inputs
@@ -156,15 +128,6 @@ tabular-ml-deployment/
 * Integrate monitoring with Prometheus and Grafana
 * Create CI/CD pipelines for automated deployment
 
----
-
 ## 📄 License
 
 MIT License © 2025 Your Name
-
-```
-
----
-
-If you want, I can help you next with example code snippets for the backend API or React components!
-```
