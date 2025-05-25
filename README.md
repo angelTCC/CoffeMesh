@@ -1,10 +1,8 @@
 # 🚀 Full-Stack Deployment: CoffeeMesh
 
-cambio de planes, are el frontend y bcakend and conteinernde la cafeteria de apis book
-
-<img src="design1.png" style>
-
-
+<div style="text-align:center;"> 
+<img src="design1.png">
+</div>
 
 ## 🎯 Project Overview
 
