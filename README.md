@@ -23,7 +23,7 @@ The main goals are to:
 ## 📁 Project Structure
 
 ```
-tabular-ml-deployment/
+FullStackDeployment/
 ├── backend/
 │   ├── main.py                     # FastAPI app serving the model API
 │   ├── model\_utils.py              # Model loading and preprocessing helpers
